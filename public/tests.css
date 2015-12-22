@@ -1,0 +1,40 @@
+.item {
+	background: #fafafa; 
+	padding: 2px 5px; 
+	border-top: 1px solid #fcfcfc; 
+	border-bottom: 1px solid #f7f7f7;
+	border-left: 1px solid #f7f7f7;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.item:hover {
+	background: #f0f0f0;
+	border-bottom-color: #ebebeb;
+	border-left-color: #ebebeb;
+}
+
+.item.focus {
+	background: #ebebeb;
+	border-bottom-color: #e6e6e6;
+}
+
+.item .preview { cursor: pointer; }
+
+.item .content {
+	padding: 3px 7px 0px;
+}
+.item .content .item {
+	padding: 2px 5px;
+	margin-bottom: 0px;
+}
+
+.values { padding: 6px 8px;}
+
+.ret { padding-left: 20px;}
+
+.expanded {}
+
+.logger .logger > .logs { padding-left: 15px; }
+
+.fn-capture .preview { font-weight: bold; }
